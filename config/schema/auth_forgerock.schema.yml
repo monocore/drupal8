@@ -1,0 +1,12 @@
+fr_auth.auth_forgerock.*:
+  type: config_entity
+  label: 'Auth forgerock config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

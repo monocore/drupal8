@@ -1,0 +1,5 @@
+name: Forgerock Authentication
+type: module
+description: Provides custom authentication based on forgerock headers
+core: 8.x
+package: Custom

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains fr_auth.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function fr_auth_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the fr_auth module.
+    case 'help.page.fr_auth':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides custom authentication based on forgerock headers') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function fr_auth_theme() {
+  return [
+    'fr_auth' => [
+      'render element' => 'children',
+    ],
+  ];
+}

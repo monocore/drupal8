@@ -1,0 +1,7 @@
+services:
+  authentication.fr_auth:
+    class: Drupal\fr_auth\Authentication\Provider\ForgerockAuthProvider
+    arguments: ['@config.factory', '@entity_type.manager']
+    tags:
+      - { name: authentication_provider, provider_id: forgerock_auth_provider, priority: 100 }
+

@@ -1,0 +1,6 @@
+entity.auth_forgerock.add_form:
+  route_name: entity.auth_forgerock.add_form
+  title: 'Add Auth forgerock'
+  appears_on:
+    - entity.auth_forgerock.collection
+

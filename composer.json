@@ -1,0 +1,14 @@
+{
+  "name": "drupal/fr_auth",
+  "type": "drupal-module",
+  "description": "Provides custom authentication based on forgerock headers",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/fr_auth",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/fr_auth",
+    "source": "http://cgit.drupalcode.org/fr_auth"
+  },
+  "require": { }
+}

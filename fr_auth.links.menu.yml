@@ -1,0 +1,9 @@
+
+# Auth forgerock menu items definition
+entity.auth_forgerock.collection:
+  title: 'Auth forgerock'
+  route_name: entity.auth_forgerock.collection
+  description: 'List Auth forgerock (bundles)'
+  parent: system.admin_structure
+  weight: 99
+
